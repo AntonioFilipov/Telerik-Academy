@@ -1,0 +1,24 @@
+*Visual Studio has an advantage when it comes to programming. This IDE is mostly used by corporate programmers
+to produce .NET code. Sometimes people want to try the product without investing thousands of dollars first,
+so Microsoft has the Express editions for all of their products. This makes it perfect for casual users that 
+want to hack out some code as a hobby or programmers who need a free solution to code in C#.
+
+*Eclipse is the best alternative if you are not a big fan of Microsoft’s Visual Studio. The interface is a lot
+cleaner and concise than Visual Studio and the languages that are possible to use extend past the .Net Framework.
+Besides being the number on way to develop Android applications via the Android SDK, it is fully extensible to use
+languages such as Ruby, C, C++ and many many more.
+
+*NetBeans is one alternative to Eclipse. This program is extensible and free, and it compiles code which is a bonus.
+When installing Netbeans it comes with a Java server called GlassFish that you could deploy on your computer for your
+testing environment. This server is the second biggest server for Java next to WebSphere.
+
+*PHPEdit is a pretty good PHP IDE.It offers the debugging (even a Firefox debugging plug-in) and database support
+(easy query building and data visualizing) that you would expect, along with time-saving keyboard templates that
+allow you to quickly set up your PHP code structure. With PHPEdit, it's pretty easy to connect to a server and use
+all the features, including auto-suggestion and -completion, with remote files: PHPEdit takes care of all the
+downloading and uploading for you.
+
+*Code::Blocks is a free, open source cross-platform IDE which supports multiple compilers including GCC, Clang
+and Visual C++. It is developed in C++ using wxWidgets as the GUI toolkit. Using a plugin architecture, its
+capabilities and features are defined by the provided plugins. Currently, Code::Blocks is oriented towards C,
+C++, and Fortran. It has a custom build system and optional Make support.

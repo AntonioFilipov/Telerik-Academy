@@ -1,0 +1,4 @@
+C# is a programming language, .NET is a blanket term that tends to cover both the .NET Framework
+(an application framework library) and the Common Language Runtime which is the runtime in which
+.NET assemblies are run. Generally, C# is a programming language,whereas .NET is the framework that
+the language is built on.
