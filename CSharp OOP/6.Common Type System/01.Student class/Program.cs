@@ -10,6 +10,7 @@ namespace _01.Student_class
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("test");
         }
     }
 }
