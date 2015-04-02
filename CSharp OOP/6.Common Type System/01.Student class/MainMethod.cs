@@ -27,9 +27,7 @@ namespace _01.Student_class
             Student a = new Student("Posho", "Borislavov","Petrov", "2312432");
             Student b = new Student("Peter","Georgiev", "Petrov", "2212432");
             Console.WriteLine(a==b);
-
             Console.WriteLine(a.GetHashCode());
-
             Console.WriteLine(a.CompareTo(b));
 
 
