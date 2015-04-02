@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Student class", "01.Stud
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Person class", "02.Person class\02.Person class.csproj", "{A2BC8561-A57A-4F32-B1F8-4778945699EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.64 Bit array", "03.64 Bit array\03.64 Bit array.csproj", "{35A56E06-3D38-491A-9EA0-57A8DE5D71E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,16 @@ Global
 		{A2BC8561-A57A-4F32-B1F8-4778945699EB}.Release|ARM.ActiveCfg = Release|Any CPU
 		{A2BC8561-A57A-4F32-B1F8-4778945699EB}.Release|x64.ActiveCfg = Release|Any CPU
 		{A2BC8561-A57A-4F32-B1F8-4778945699EB}.Release|x86.ActiveCfg = Release|Any CPU
+		{35A56E06-3D38-491A-9EA0-57A8DE5D71E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35A56E06-3D38-491A-9EA0-57A8DE5D71E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35A56E06-3D38-491A-9EA0-57A8DE5D71E0}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{35A56E06-3D38-491A-9EA0-57A8DE5D71E0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{35A56E06-3D38-491A-9EA0-57A8DE5D71E0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{35A56E06-3D38-491A-9EA0-57A8DE5D71E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35A56E06-3D38-491A-9EA0-57A8DE5D71E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35A56E06-3D38-491A-9EA0-57A8DE5D71E0}.Release|ARM.ActiveCfg = Release|Any CPU
+		{35A56E06-3D38-491A-9EA0-57A8DE5D71E0}.Release|x64.ActiveCfg = Release|Any CPU
+		{35A56E06-3D38-491A-9EA0-57A8DE5D71E0}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
