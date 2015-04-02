@@ -41,8 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Enumerations\EFaculties.cs" />
+    <Compile Include="Enumerations\EUniversities.cs" />
+    <Compile Include="Enumerations\ESpecialties.cs" />
+    <Compile Include="Interfaces\IClonable.cs" />
+    <Compile Include="Interfaces\IComparable.cs" />
+    <Compile Include="MainMethod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
