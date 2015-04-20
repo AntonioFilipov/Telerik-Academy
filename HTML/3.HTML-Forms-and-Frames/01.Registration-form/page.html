@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Web form</title>
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	<table>
+		<form action="" method="SET">
+			<tbody>
+				<tr>
+					<td class="explanation" name="lastName">Last Name</td>
+					<td>
+						<input type="text"/>
+					</td>
+					</tr>
+					<tr>
+						<td class="explanation" name="firstName">First Name</td>
+						<td>
+							<input type="text"/>
+						</td>
+					</tr>
+					<tr>
+						<td class="explanation" name="address">Address</td>
+						<td>
+							<textarea name="address"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td class="explanation">City</td>
+						<td>
+							<input type="text" name="city" id="city"> State <input type="text" name="state" id="state">
+						</td>
+					</tr>
+					<tr>
+						<td class="explanation">Zip/Postal Code</td>
+						<td>
+							<input type="text" name="zipCode" id="zipCode">
+						</td>
+					</tr>
+					<tr>
+						<td class="explanation">Country</td>
+						<td>
+							<select name="country">
+								<option value="BG" selected="selected">Bulgaria</option>
+								<option value="D">Deutschland</option>
+								<option value="RO">Romania</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td class="explanation">Phone(country code, </br>area code,number)</td>
+						<td>
+							(+<input type="text" name="phone" id="phoneCode">) <input type="text" name="phone" id="phone1"> <input type="text" name="phone" id="phone2">
+						</td>
+					</tr>
+					<tr>
+						<td class="explanation">E-mail</td>
+						<td>
+							<input type="email" name="email">
+						</td>
+					</tr>
+					<tr>
+						<td class="explanation">Birth date</td>
+						<td>
+							<input type="text" placeholder="дд.мм.гггг г.">
+						</td>
+					</tr>
+					<tr>
+						<td class="explanation">Gender</td>
+						<td>
+							<select name="gender">
+								<option value="m">Male</option>
+								<option value="f">Female</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td class="explanation">Starting date</td>
+						<td id="startingDate">
+						<input type="radio" id="spring" name="date"/>
+						<label for="spring">Spring 2015</label>
+						<input type="radio" id="summer" name="date"/>	
+						<label for="summer">Summer 2015</label> 
+
+						</td>
+					</tr>
+					<tr>
+						<td class="explanation">Comments/Questions</td>
+						<td>
+							<textarea name="comments" cols="30" rows="10"></textarea>
+						</td>
+					</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan = "2">
+					<div id="buttons">
+						<button type="submit" value="Submit" class="buttons" id="submit">Submit</button>
+						<button type="reset" value = "Reset" class="buttons">Clean This Form</button>
+					</div>
+					</td>
+				</tr>
+			</tfoot>
+		</form>
+	</table>
+	
+</body>
+</html>

@@ -1,0 +1,57 @@
+table{
+	border-collapse: collapse;
+	width:25em;
+}
+table, td{
+	border: 1px solid black;
+}
+input, textarea{
+	width:15em;
+}
+textarea{
+	max-width: 15em; 
+}
+#city, #state, #zipCode{
+	width:6em;
+}
+#phoneCode{
+	width:3em;
+}
+#phone1{
+	width:4em;
+}
+#phone2{
+	width:5em;
+}
+#startingDate{
+	margin: 0;
+	padding: 0;
+}
+label{
+	float: left;
+}
+#spring, #summer{
+	float: left;
+	width:1em;
+}
+.explanation{
+	font-weight: bold;
+	text-align: center;
+}
+
+.buttons{
+	float: left;
+	width: 10em;
+}
+
+#buttons{
+	width:14em;
+	margin:0 auto;
+}
+#submit{
+	width:6em;
+	margin-right: 5px;
+}
+tfoot{
+	background-color: #87CEEB;
+}
