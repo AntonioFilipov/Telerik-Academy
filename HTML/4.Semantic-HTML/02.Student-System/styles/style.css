@@ -1,0 +1,29 @@
+header{
+
+}
+header #logo{
+	width: 200px;
+	display: inline-block;
+}
+
+header #h1Header{
+	display: inline-block;
+    vertical-align: top;
+}
+
+nav{
+	display: block;
+}
+
+table{
+  	border-collapse: collapse;
+  	width:400px;
+  	height:200px;
+}
+table, td, th{
+	border: 1px solid black;
+}
+
+td, th{
+	text-align: center;
+}
