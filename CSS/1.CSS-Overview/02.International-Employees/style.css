@@ -1,0 +1,25 @@
+table{
+	width:500px;
+	font-size: 0.9em;
+}
+table, td, th{
+	border-collapse: collapse;
+	border:1px solid #CFCDB6;
+	padding: 5px;
+}
+
+table thead th{
+	color:white;
+	font-weight: normal;
+	text-align: left;
+}
+table tr.even{
+	background-color: #ECECD8;
+}
+table thead{
+	background-color: #52B506;
+}
+img{
+	width: 20px;
+	height: 10px;
+}
