@@ -1,0 +1,81 @@
+body, div, nav, ul, li, section{
+	margin:0;
+	padding: 0
+
+}
+
+body{
+	font-size:12px;
+	font-family: sans-serif;
+	font-weight: bold
+}
+div#container{
+	width:45%;
+	background-color: #1E3741;
+	border-radius: 10px;
+	position: relative;
+}
+
+div#container nav{
+	width:90%;
+}
+
+div#container nav ul{
+	margin: 5px;
+	padding: 5px;
+}
+div#container nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px;
+	margin: 2px;
+	margin-left:1px;
+	background-color: #4B5F67;
+}
+
+div#container nav ul li a{
+	color: #94B2A8;
+	text-decoration: none;
+}
+
+div#container nav ul li#sport{
+	text-decoration: underline;
+}
+
+div#container nav ul li#news{
+	background-color: #1E3741;	
+}
+
+div#container nav ul li:hover{
+	background-color: #1E3741;
+}
+
+section{
+	margin-top:5px;
+}
+
+section ul{
+	width:40%;
+	display: inline-block;
+}
+
+section ul li{
+	color:#B6C2C8;
+	border-bottom: 1px solid #94B2A8;
+	padding: 10px;
+}
+
+section ul li:last-child{
+	border-bottom: none;
+}
+
+section ul li:hover{
+	background-color: #00968C;
+	color:white;
+}
+
+img{
+	vertical-align: top;
+}
+
+

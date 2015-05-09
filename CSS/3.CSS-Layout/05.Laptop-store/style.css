@@ -1,0 +1,97 @@
+body{
+	font-size:16px;
+}
+
+body, header, li, ul, section, p{
+	margin:0;
+	padding: 0;
+}
+
+div#container{
+	width:80%;
+	border: 3px solid #000;
+	border-radius: 10px;
+	margin:10px;
+}
+
+div#container header{
+	width:90%;
+	margin:0 auto;
+	padding: 10px;
+	padding-bottom:0;
+}
+
+div#container header ul{
+	text-align: center;
+}
+
+div#container header ul li{
+	list-style-type: none;
+	display: inline-block;
+	font-size:2rem;
+	font-weight: bold;
+}
+
+div#container header{
+	border-bottom: 2px solid #000;
+	padding-bottom:10px;
+}
+
+div#container header ul li a{
+	color:#00ACEE;
+}
+
+section#laptops{
+	width:56%;
+	border:2px solid #000;
+	margin:15px;
+	padding:15px;
+	display: inline-block;
+}
+
+section#laptops li, p{
+	font-size: 1.2rem;
+	font-family: Arial;
+}
+section#laptops>ul>li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+section#laptops ul li form fieldset{
+	text-align: center;
+}
+
+section#laptops ul li div{
+	display: inline-block;
+}
+section#laptops ul li div.imgPrice p{
+	text-align: center;
+}
+section#laptops ul li div.characteristics ul li{
+	list-style-type: none;
+	margin-bottom: 15px;
+}
+img{
+	width:150px;
+	height: 100px;
+}
+
+aside{
+	display: inline-block;
+	vertical-align: top;
+	margin:0 auto;
+	margin-left:70px;
+	margin-top:130px;
+}
+
+aside ul li{
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+
+aside ul li p{
+	font-size: 1.8rem;
+	font-family: Arial;
+	margin-bottom: 15px;
+}

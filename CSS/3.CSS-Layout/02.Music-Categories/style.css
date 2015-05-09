@@ -1,0 +1,64 @@
+body, div, p, section{
+	margin:0;
+	padding:0;
+}
+#container{
+	width: 40%;
+	background-color: #EEE;
+	padding: 10px;
+	border-radius: 10px;
+	margin:10px;
+}
+
+article{
+	background-color: #fff;
+	border:1px solid grey;
+	padding: 20px;
+}
+body div p{
+	font-family: sans-serif,Courier;
+}
+
+article{
+	height: 90px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+div#articleImage{
+	display: inline-block;
+	float: left;
+	margin-right:10px;
+}
+div#articleContent{
+	display: inline;
+	margin-right: 5px;
+}
+div#articleContent p{
+	padding: 0;
+	display: inline;
+	font-size: 12px;
+}
+span.bold{
+	font-weight: bold;
+}
+
+.buttons{
+	float: right;
+	position: relative;
+	margin-top:20px;
+}
+
+span#listen{
+	position:absolute;
+	left:25px;
+	top:1px;
+	color:white;
+}
+
+span#add{
+	position:absolute;
+	left:95px;
+	top:1px;
+	color:white;
+}
